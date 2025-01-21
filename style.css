@@ -52,5 +52,16 @@ p, li{
     color: blue;
 }
 
+.nutrients-table .nutrients-table-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5rem;
+}
 
+.nutrients-table .nutrients-table-item:not(:last-child){
+    border-bottom: solid .1px gray;
+}
 
+.nutrients-table .nutrients-table-item p:last-child{
+    color: red;
+}
